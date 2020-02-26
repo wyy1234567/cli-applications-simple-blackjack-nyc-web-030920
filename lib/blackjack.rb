@@ -37,9 +37,18 @@ end
 
 def hit?(total_number)
   # code hit? here
-  vaild_input = ['h', 's']
   prompt_user
   input = get_user_input
+  
+  if input == 'h'
+    total_number += deal_card
+  elsif input == 's'
+    total_number
+  else
+    invalid_command
+    hit?(total_number)
+  end
+  total_number
 end
 
 def invalid_command
