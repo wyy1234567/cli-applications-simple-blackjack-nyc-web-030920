@@ -23,8 +23,9 @@ def get_user_input
   gets.chomp.strip
 end
 
-def end_game
+def end_game(total_num)
   # code #end_game here
+  
 end
 
 def initial_round
