@@ -68,6 +68,6 @@ def runner
     initial_number = hit?(initial_number)
     display_card_total(initial_number)
   end
-  
+  end_game(initial_number)
 end
     
