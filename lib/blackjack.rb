@@ -37,11 +37,14 @@ end
 
 def hit?(total_number)
   # code hit? here
+  vaild_input = ['h', 's']
   prompt_user
+  input = get_user_input
 end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
