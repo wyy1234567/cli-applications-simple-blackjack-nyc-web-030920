@@ -25,11 +25,12 @@ end
 
 def end_game(total_num)
   # code #end_game here
-  
+  "Sorry, you hit #{total_num}. Thanks for playing!"
 end
 
 def initial_round
   # code #initial_round here
+  
 end
 
 def hit?
